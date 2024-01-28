@@ -1,17 +1,14 @@
 {
   "name": "cekmasaaktifxl",
   "module": "index.ts",
-  "type": "module",
+  "devDependencies": {
+    "bun-types": "^1.0.25"
+  },
   "peerDependencies": {
     "typescript": "^5.0.0"
-  },
-  "dependencies": {
-    "crypto-browserify": "^3.12.0"
   },
   "scripts": {
     "build": "tsc"
   },
-  "devDependencies": {
-    "bun-types": "^1.0.25"
-  }
+  "type": "module"
 }
